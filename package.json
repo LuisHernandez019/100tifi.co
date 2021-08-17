@@ -1,0 +1,22 @@
+{
+  "name": "100tifi.co",
+  "version": "1.0.0",
+  "description": "Single-page Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisHernandez019/100tifi.co.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Luis Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisHernandez019/100tifi.co/issues"
+  },
+  "homepage": "https://github.com/LuisHernandez019/100tifi.co#readme"
+}
