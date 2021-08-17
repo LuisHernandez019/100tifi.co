@@ -1,0 +1,33 @@
+{
+  "name": "100tifi.co",
+  "version": "1.0.0",
+  "description": "Single-page Application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisHernandez019/100tifi.co.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Luis Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisHernandez019/100tifi.co/issues"
+  },
+  "homepage": "https://github.com/LuisHernandez019/100tifi.co#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {}
+}
