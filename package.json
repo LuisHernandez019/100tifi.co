@@ -4,7 +4,8 @@
   "description": "Single-page Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,12 @@
   "homepage": "https://github.com/LuisHernandez019/100tifi.co#readme",
   "devDependencies": {
     "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "babel-loader": "^8.2.2",
-    "html-webpack-plugin": "^5.3.2",
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.8.0",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "dependencies": {}
 }
