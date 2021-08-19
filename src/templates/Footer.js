@@ -14,7 +14,7 @@ const Footer = () => {
                   <a href="https://dribbble.com/LuisHernandez19" target="_blank"><img src="assets/img/dribbble.svg"></a>
                </li>
                <li>
-                  <a href="https://twitter.com/hdz_xls" target="_blank"><img src="src/assets/img/twitter.svg"></a>
+                  <a href="https://twitter.com/hdz_xls" target="_blank"><img src="assets/img/twitter.svg"></a>
                </li>
             </ul>
          </section>
