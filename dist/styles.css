@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: center;
   max-width: 925px;
+  min-height: calc(100vh - 130px);
 }
 
 #content {
@@ -95,6 +96,8 @@ body {
 
 /* CHARACTER CARD */
 .character-inner {
+  display: flex;
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 2rem;
@@ -131,10 +134,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation-duration: 1s;
+  animation-name: fade;
+  transition: .3s ease all;
 }
 
 .error404 img {
-  max-width: 40%;
+  max-width: 32.5%;
   margin: 0 auto;
 }
 
@@ -146,24 +152,37 @@ body {
 
 /* FOOTER */
 .footer {
-  margin: 0 auto;
-  position: fixed;
+  margin: 20px auto 0;
+  position: relative;
   width: 100%;
   background-color: #000;
 }
 
 .footer-main {
-  margin: 0 auto;
+  height: 110px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 80px;
-  max-width: 925px;
   transition: 1s ease all;
+}
+
+.footer-main h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 15px;
+  font-size: 14px;
+}
+
+.social-media ul {
+  display: flex;
+  list-style:none
 }
 
 .social-media img {
   height: 30px;
+  padding: 0 0.8em;
 }
 
 @keyframes fade {
