@@ -1,15 +1,15 @@
 const Header = () => {
    const view = `
-      <div class="Header-main">
-         <div class="Header-logo">
-            <h1>
-               <a href="/">100tifi.co</a>
-            </h1>
+      <header class="header-main">
+         <div class="header-logo">
+            <a href="#">
+               <img src="src/assets/img/logo.png">
+            </a>
          </div>
-         <div class="Header-nav">
-            <a href="#/about/">About</a>
-         </div>
-      </div>
+         <nav class="header-nav">
+            <a href="#/about/" class="nav-element">About</a>
+         </nav>
+      </header>
    `;
    return view;
 };
