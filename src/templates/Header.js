@@ -3,7 +3,7 @@ const Header = () => {
       <header class="header-main">
          <div class="header-logo">
             <a href="#">
-               <img src="../assets/img/logo.png">
+               <img src="../src/assets/img/logo.png">
             </a>
          </div>
          <nav class="header-nav">
