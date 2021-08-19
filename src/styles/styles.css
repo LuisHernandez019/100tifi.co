@@ -83,7 +83,7 @@ body {
   justify-content: center;
   height: 50px;
   border-radius: 15px;
-  background-image: url(../src/assets/img/portal.png);
+  background-image: url(assets/img/portal.png);
   background-repeat: no-repeat;
 }
 
